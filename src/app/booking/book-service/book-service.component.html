@@ -1,0 +1,72 @@
+<section>
+  <div class="services-two">
+    <h3 id="services">Fill in your details to book a service
+      <br>
+      No booking on sundays!!
+    </h3>
+  </div>
+  <div id="booking" class="book">
+    <div class="booking-img">
+      <img src="../../../assets/img/booking.png" alt="" />
+    </div>
+
+    <div class="booking-form">
+      <form [formGroup]="addBookedFormGroup" (ngSubmit)="saveBooked()">
+        <input type="text" id="" name="firstname" placeholder="First name.." formControlName="firstName"/>
+        <input type="text" name="" id="" placeholder="Last name.." formControlName="lastName" />
+        <input type="text" name="" id="" placeholder="Your Contact.." formControlName="contact"/>
+        <input type="text" name="" id="" placeholder="Vehicle Type" formControlName="vehicleType"/>
+        <input type="text" name="" id="" placeholder="Vehicle make" formControlName="vehicleMake" />
+        <input type="text" name="" id="" placeholder="Engine .." formControlName="engine" />
+        <input type="text" name="" id="" placeholder="License .." formControlName="license"/>
+        <input type="text" name="" id="" placeholder=" Description" formControlName="Description"/>
+        <input type="text" name="" id="" placeholder=" date" formControlName="date"/>
+
+        <div class="submit-btn">
+          <button>Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<section>
+    <div class="patna">
+      <div class="services-two" id="partners">
+        <h1>Our patners</h1>
+      </div>
+
+      <div class="partner-img">
+        <div>
+          <img src="../../../assets/img/partners/aston-martin-logo.avif" alt="" />
+          <h3 class="pt-name">Auston martin</h3>
+        </div>
+
+        <div>
+            <img src="../../../assets/img/partners/audi.png" alt="" />
+            <h3 class="pt-name">Audi</h3>
+        </div>  <div>
+            <img src="../../../assets/img/partners/benz.jpeg" alt="" />
+            <h3 class="pt-name">Mercedes</h3>
+        </div>  <div>
+            <img src="../../../assets/img/partners/ford.jpeg" alt="" />
+            <h3 class="pt-name">Ford</h3>
+        </div>  <div>
+            <img src="../../../assets/img/partners/jagur.jpeg" alt="" />
+            <h3 class="pt-name">jagur</h3>
+        </div>  <div>
+            <img src="../../../assets/img/partners/toyota.jpeg" alt="" />
+            <h3 class="pt-name">Toyota</h3>
+        </div> 
+         <div>
+            <img src="../../../assets/img/partners/voxwagen.png" alt="" />
+            <h3 class="pt-name">voxwagen</h3>
+        </div>
+        
+
+
+
+      </div>
+    </div>
+  </section>

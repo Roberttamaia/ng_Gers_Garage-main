@@ -1,0 +1,38 @@
+.services-two{
+  color:#4E79B0;
+  text-align: center;
+  margin-top: 6pc;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 450px 450px 450px;
+  grid-gap: 20px;
+  background-color: #fff;
+  margin: 50px;
+}
+
+
+
+.box {
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.box h2{
+  color: #4E79B0;
+  font-size: large;
+  text-align: center;
+
+}
+
+
+
+img{
+    width: 20rem;
+    height: 14rem;
+    border-radius: 2rem;
+}

@@ -1,0 +1,60 @@
+.booking-img{
+    float: left;
+    margin: 20px;
+    margin-left: 5pc;
+  }
+  
+  .booking-img img{
+    height: 25pc;
+    width: 43pc;
+  }
+  
+  .booking-form{
+    width: 40pc;
+    float: right;
+  
+  }
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #4E79B0;
+    border-radius: 4px;
+  
+  
+  }
+  
+  .submit-btn button{
+    color: white;
+    background-color: #4E79B0;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  
+  
+  
+  .partner-img{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+  }
+  
+  .partner-img img{
+    width: 195px;
+    height: 100px;
+    border-radius: 20px;
+  }
+  
+  .pt-name{
+    color: steelblue;
+    text-align: center;
+    font-size: large;
+  }
+  
+  
+  
+  
